@@ -6,10 +6,11 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+[![Build Status](https://www.travis-ci.com/asdFletcher/01-node-ecosystem.svg?branch=master)](https://www.travis-ci.com/asdFletcher/01-node-ecosystem)
+
+* [repo](https://github.com/asdFletcher/01-node-ecosystem)
+* [travis](https://www.travis-ci.com/asdFletcher/01-node-ecosystem)
 
 ### Modules
 #### `modulename.js`
