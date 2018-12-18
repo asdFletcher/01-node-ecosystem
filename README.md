@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Node Ecosystem Lab
 
-### Author: Student/Group Name
+### Author: Fletcher LaRue
 
 ### Links and Resources
 
@@ -15,14 +15,30 @@
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `arithmetic.js`
+##### Exported Values and Methods:
+* add
+* subtract
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `greet.js`
+##### Exported Values and Methods:
+* greet
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `add(a,b) -> a+b`
+###### `subtract(a,b) -> a-b`
+* Performs aritmetic on a and b input arguments
+* Inputs should be 2 numbers
+    * If non-number input, returns null
+* Can accept 2, 1 or 0 arguments
+    * If 1 input argument, returns input argument
+    * If 0 input arguments, returns 0
+
+
+###### `greet(name) -> 'hello name'`
+* takes a name and appends 'hello' to the front of it
+* returns 'hello' on empty string
+* Can accept 1 or 0 arguments
+    * returns null on missing input arguments
 
 ### Setup
 #### `.env` requirements
